@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/resources';
+const API_URL = process.env.REACT_APP_API_URL ? `${process.env.REACT_APP_API_URL}/api/resources` : 'http://localhost:5000/api/resources';
 
 const resourceService = {
   createResource: async (resourceData) => {
