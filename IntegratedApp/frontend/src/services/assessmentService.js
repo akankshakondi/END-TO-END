@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5004/api/assessments';
+const API_URL = 'http://localhost:5000/api/assessments';
 
 const assessmentService = {
   createAssessment: async (assessmentData) => {

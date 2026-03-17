@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5002/api/experiences';
+const API_URL = 'http://localhost:5000/api/experiences';
 
 const experienceService = {
   createExperience: async (experienceData) => {

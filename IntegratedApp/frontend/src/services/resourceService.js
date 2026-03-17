@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5003/api/resources';
+const API_URL = 'http://localhost:5000/api/resources';
 
 const resourceService = {
   createResource: async (resourceData) => {

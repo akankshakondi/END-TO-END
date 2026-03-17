@@ -1,17 +1,8 @@
 {
-  "name": "m3",
+  "name": "interview-prep-platform",
   "version": "1.0.0",
-  "description": "",
-  "main": "guidanceModel.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
-    "mongoose": "^9.2.1"
+  "description": "Graduate Employee Interview Preparation Platform"
+}
   }
+>>>>>>> c8f110e3ff17b81f9d590b6ea6a5548ce4735b10
 }

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5003/api/checklists';
+const API_URL = 'http://localhost:5000/api/checklists';
 
 const checklistService = {
   createChecklist: async (checklistData) => {
